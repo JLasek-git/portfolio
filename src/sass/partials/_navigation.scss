@@ -1,0 +1,31 @@
+nav .wrapper {
+    position: absolute;
+    right: 0;
+    font-weight: bolder;
+    z-index: 1;
+
+    & ul {
+        list-style-type: none;
+
+        & li {
+            display: inline-block;
+            margin-right: 40px;
+
+            & a {
+                color: $text-color-white;
+                text-decoration: none;
+                transition: .3s linear;
+            }
+
+            & a:hover {
+                color: #eccc68;
+            }
+        }
+    }
+}
+
+
+.photo {
+    height: 100vh;
+    background-color: royalblue;
+}
