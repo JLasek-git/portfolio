@@ -1,0 +1,109 @@
+.hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(#333333, .6 );
+  color: $text-color-white;
+  position: fixed;
+  right: 1%;
+  top: 1%;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 3;
+  transition: .3s linear;
+
+  & .fas {
+      transition: .3s linear;
+  }
+
+  &:hover .fas {
+    color: #eccc68;
+  }
+
+  &.clicked {
+      right: -10%;
+  }
+}
+
+.hamburger-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-color-white;
+    font-size: 2rem;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(#333333, .6 );
+    position: fixed;
+    transition: .3s linear;
+    cursor: pointer;
+
+    &.active{
+        left: 0;
+    }
+
+    &.hidden{
+        left: -25%;
+    }
+
+    & .fas {
+        position: absolute;
+        top: 1%;
+        left: 3%;
+        transition: .3s linear;
+    }
+
+    & .fas:hover {
+        color: #eccc68;
+    }
+
+    & ul {
+        list-style-type: none;
+        padding: 0;
+    
+        & li {
+          position: relative;
+          margin-bottom: 40px;
+          transition: .3s linear;
+          overflow: hidden;
+    
+          & a {
+            font-weight: bolder;
+            color: $text-color-white;
+            text-decoration: none;
+            transition: 0.3s linear;
+          }
+    
+          &:hover a {
+            color: #eccc68;
+
+            &::after{
+              left: -30%;
+            }
+          }
+
+
+          &:hover {
+            transform: translateY(-10px);
+
+          }
+
+          & a::after {
+            content: ' ';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background-color: #eccc68;
+            bottom: 0;
+            left: -50%;
+            transition: .3s linear;
+          }
+
+
+        }
+      }
+    z-index: 3;
+}
