@@ -15,39 +15,66 @@
     <nav id="hamburger-menu" class="hamburger-nav hidden">
         <i id="hamburger-close" class="fas fa-times"></i>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#technologies">Technologies</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="./index-pl.html">PL</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#technologies">Technologie</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
-    <header id="home">
+    <header>
         <div class="wrapper">
+            <div class="circles-container">
+                <div class="circles circle1">
+                </div>
+                <div class="circles circle2">
+                </div>
+                <div class="circles circle3">
+                </div>
+                <div class="circles circle4">
+                </div>
+                <div class="circles circle5">
+                </div>
+                <div class="circles circle6">
+                </div>
+                <div class="circles circle7">
+                </div>
+                <div class="circles circle8">
+                </div>
+                <div class="circles circle9">
+                </div>
+                <div class="circles circle10">
+                </div>
+                <div class="circles circle11">
+                </div>
+                <div class="circles circle12">
+                </div>
+                <div class="circles circle13">
+                </div>
+            </div>
             <div class="splash-text">
-                <span class="name">Hi! I am Jakub</span><br>
+                <span class="name">Jestem Jakub,</span><br>
                 <span class="description">Junior Front-end Developer</span>
             </div>
             <div class="down-arrow">
-                <a href="#about" ><p>Read more</p><i class="fas fa-angle-double-down"></i></a>
+                <a href="#about" ><i class="fas fa-angle-double-down"></i></a>
             </div>
         </div>
     </header>
     <section class="about" id="about">
         <div class="wrapper">
             <div class="text-container">
-                <h1 class="section-header">About me</h1>
-                <span class="section-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, error asperiores. Asperiores necessitatibus delectus dignissimos, exercitationem non aliquid. Repellendus voluptas dolores rem reprehenderit perspiciatis, explicabo amet maxime aspernatur veritatis quis.
-                Suscipit quo repudiandae ab! Repellendus deleniti quisquam obcaecati, eaque laboriosam, accusantium iste tempore libero explicabo fuga beatae aliquid facere sunt? Necessitatibus nostrum explicabo ipsam veniam ad earum fugiat, minus est.
-                </span>
+                <h1 class="section-header">O mnie</h1>
+                <div class="section-text">
+                    <p>Nazywam się Jakub i mam 22 lata. Pochodzę z niewielkiej wsi z okolic Rzeszowa. Pierwszą styczność z programowaniem miałem w szkole średniej, gdzie uczyłem się programowania Sterowników PLC, a także liznąłem troszkę C++ na zajęciach z Informatyki. Jednak kamieniem milowym w rozwoju mojej pasji do programowania były studia, gdzie dużo bardziej musiałem wdrożyć się w ten komputerowy świat. Zacząłem namiętnie uczyć się C++ i jak się okazało, sprawiało mi to ogromną przyjemność, więc postanowiłem dalej rozwijać się w tym kierunku.</p>
+                    <p>Można powiedzieć, że z programowaniem mam już kontakt od około pięciu lat, jednak było to coś bardziej hobbistycznego. Programowaniem aplikacji internetowych i Front-endem zacząłem interesować się troszkę ponad pół roku temu, kiedy to rozpocząłem naukę HTML i CSS. Po zagłębieniu się w temat Front-endu stwierdziłem, że WebDev jest tym, co chcę robić.</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="technologies" id="technologies">
         <div class="wrapper">
             <div class="technologies-container">
-                <h1 class="section-header">Technologies</h1>
+                <h1 class="section-header">Co potrafię?</h1>
                 <div class="technologies-icons">
                     <figure>
                         <img src="../images/html5.png" alt="html">
@@ -83,8 +110,83 @@
     </section>
     <section class="projects" id="projects">
         <div class="wrapper">
+            <div class="projects-container">
+                <h1 class="section-header">Projekty</h1>
+                <div class="projects-photos">
+                    <div class="project-container">
+                        <div class="photo-container">
+                            <img src="images/GameView.PNG" alt="GameViewPhoto">
+                        </div>
+                        <div class="project-description">
+                           <p>Jest to mój pierwszy w pełni samodzielnie wykonywany projekt, który aktualnie znajduje się jeszcze w produkcji. "Industrio" ma być grą, w której gracz wcieli się w rolę właściciela zakładu metalurgicznego.</p>
+                           <p class="more more-industrio"><span class="more-btn-text">Więcej</span></p>
+                        </div>
+                    </div>
+                    <div class="project-container">
+                        <div class="photo-container">
+                            <img src="images/PortfolioImage.PNG" alt="PortfolioImage">
+                        </div>
+                        <div class="project-description">
+                            <p>Ta strona jest kolejnym z moich samodzielnych projektów. Została wykonana w celu prezentacji swoich umiejętności, oraz zebrania wszystkiego o sobie i moich projektach w jednym miejscu. Do jej stworzenia wykorzystałem <b>Vanilla JS</b>, <b>Sass</b>, <b>HTML</b>.</p>
+                        </div>
+                    </div>
+                    <p><i>Wszystkie projekty na stronie są mojego autorstwa. Na moim koncie GitHub znaleźć można więcej projektów w publicznych repozytoriach, jednak były one częścią kursu, przez co nie jestem autorem wszystkich funkcjonalności w nich zawartych.</i></p>
+                </div>
+            </div>
         </div>
     </section>
+    <div id="industrio" class="industrio-info">
+        <div class="content-wrapper">
+            <i id="industrio-close" class="fas fa-times"></i>
+            <div class="backdrop-content-wrapper">
+                <div class="screens-container">
+                    <div class="main-photo">
+                        <img src="images/GameView.PNG" alt="gameVie">
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h1>Industrio</h1>
+                    <p>Projekt nadal jest w trakcie rozwoju. Powstaje głównie w celu przećwiczenia i większego oswojenia się z biblioteką <b>React</b> oraz <b>React Redux</b>.</p>
+                    <p><b>Aktualnie zaimplementowane funkcjonalności to m.in.:</b></p>
+                    <ul>
+                        <li>Routing pomiędzy komponentami do którego wykorzystano React Router.</li>
+                        <li>Możliwość ustawiania maszyn produkcyjnych w wyznaczonych do tego miejscach.</li>
+                        <li>Start pracy maszyny, wybór ilości materiału jaki chcemy użyć oraz wyświetlenie informacji dotyczącej czasu i kosztów produkcji.</li>
+                        <li>Dodanie punktów doświadczenia oraz otrzymanych materiałów po ukończeniu produkcji.</li>
+                        <li>Licznik czasu do końca produkcji.</li>
+                    </ul>
+                    <p><b>Planowane funkcjonalności to m.in.:</b></p>
+                    <ul>
+                        <li>Implementacja sklepu oraz marketu gdzie gracz będzie miał możliwość zakupu maszyn, materiałów, zatrudniania pracowników oraz zakupu większych hal produkcyjnych.</li>
+                        <li>Możliwość wyboru ilości wykorzystywanych maszyn przed startem produkcji, co będzie miało wpływ na koszty oraz czas trwania produkcji.</li>
+                        <li>Stworzenie dynamicznie zmieniających się cen w w sklepie z materiałem w zależności od popytu na dany materiał.</li>
+                        <li>Implementacja RWD, ponieważ teraz aplikacja wyświetla się odpowiednio tylko na określonych rozdzielczościach.</li>
+                        <li>Stworzenie lepszej jakości grafik, w celu uatrakcyjnienia ogólnego wyglądu projektu</li>
+                    </ul>
+                    <p>W projekcie wykorzystałem technologie takie jak: <b>React, React Redux, React Router, Sass</b></p>
+                    <p>Aplikację można znaleźć w internecie. Została opublikowana na platforimie Heroku: <a class="link" href="https://murmuring-plateau-49512.herokuapp.com/panel/" target="_blank">Industrio</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contact" id="contact">
+        <div class="wrapper">
+            <div class="contact-text">
+                <h1 class="section-header">Kontakt</h1>
+                <p>Znaleźć można mnie na tych platformach!</p>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/jakub-lasek-3b1143208/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:jakublasek41@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/JLasek-git" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="wrapper">
+            <p>&copy; 2021 Jakub Lasek. All rights reserved</p>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>

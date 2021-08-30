@@ -1,0 +1,147 @@
+.industrio-info {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(#000000, 0.6);
+  z-index: 10;
+  color: $text-color-white;
+
+  &.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .fas {
+    cursor: pointer;
+    font-size: $medium-font-size;
+    margin: 20px;
+    transition: 0.3s linear;
+    &:hover {
+      color: #eccc68;
+    }
+  }
+
+  & .content-wrapper {
+    background-image: linear-gradient(#12093d, #2d253a);
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
+
+    & .backdrop-content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 40px;
+      width: 100%;
+      height: 100%;
+
+      & .project-description {
+        margin-right: 40px;
+
+        & ul {
+          width: 90%;
+        }
+      }
+
+      & .screens-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 40%;
+        margin-right: 100px;
+
+        & .main-photo {
+          width: 100%;
+          height: 100%;
+          & img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        & .side-photos {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          height: 50%;
+
+          & img {
+            width: 100%;
+            height: 100%;
+            margin: 10px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .industrio-info {
+    & .content-wrapper {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      width: 100vw;
+      min-height: 100vh;
+      border-radius: 0;
+
+      & .backdrop-content-wrapper {
+        margin: 300px 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .project-description {
+          margin: 0;
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        & .screens-container {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .industrio-info {
+        & .content-wrapper {
+          overflow-y: scroll;
+          overflow-x: hidden;
+          width: 100vw;
+          min-height: 100vh;
+          border-radius: 0;
+    
+          & .backdrop-content-wrapper {
+            margin: 100px 0 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            & .project-description {
+              margin: 0;
+              width: 90%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+    
+            & .screens-container {
+              margin: 0;
+            }
+          }
+        }
+      }
+}

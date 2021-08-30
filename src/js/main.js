@@ -16,3 +16,22 @@ burgerBtnClose.addEventListener('click', () => {
   burgerMenu.classList.remove('active');
   burgerMenu.classList.add('hidden');
 });
+
+
+/* read more projects settings INDUSTRIO*/
+const industrioMore = document.querySelector('.more-industrio');
+const industrioInfo = document.getElementById('industrio');
+const industrioCloseBtn = document.getElementById('industrio-close');
+
+industrioMore.addEventListener('click', () => {
+  industrioInfo.classList.toggle('active');
+  document.body.style.overflowY = 'hidden';
+  
+});
+
+industrioCloseBtn.addEventListener('click', () => {
+  industrioInfo.classList.toggle('active');
+  document.body.style.overflowY = 'scroll';
+});
+
+
