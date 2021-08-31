@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
-    <div id="hamburger-btn" class="hamburger">
-        <i class="fas fa-bars"></i>
-    </div>
     <nav id="hamburger-menu" class="hamburger-nav hidden">
         <i id="hamburger-close" class="fas fa-times"></i>
         <ul>
@@ -21,6 +18,9 @@
             <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
+    <div id="hamburger-btn" class="hamburger-btn">
+        <i class="fas fa-bars"></i>
+    </div>
     <header>
         <div class="wrapper">
             <div class="circles-container">
@@ -62,7 +62,7 @@
     </header>
     <section class="about" id="about">
         <div class="wrapper">
-            <div class="text-container">
+            <div class="text-container main-container">
                 <h1 class="section-header">O mnie</h1>
                 <div class="section-text">
                     <p>Nazywam się Jakub i mam 22 lata. Pochodzę z niewielkiej wsi z okolic Rzeszowa. Pierwszą styczność z programowaniem miałem w szkole średniej, gdzie uczyłem się programowania Sterowników PLC, a także liznąłem troszkę C++ na zajęciach z Informatyki. Jednak kamieniem milowym w rozwoju mojej pasji do programowania były studia, gdzie dużo bardziej musiałem wdrożyć się w ten komputerowy świat. Zacząłem namiętnie uczyć się C++ i jak się okazało, sprawiało mi to ogromną przyjemność, więc postanowiłem dalej rozwijać się w tym kierunku.</p>
@@ -73,7 +73,7 @@
     </section>
     <section class="technologies" id="technologies">
         <div class="wrapper">
-            <div class="technologies-container">
+            <div class="technologies-container main-container">
                 <h1 class="section-header">Co potrafię?</h1>
                 <div class="technologies-icons">
                     <figure>
@@ -93,8 +93,12 @@
                         <figcaption>React</figcaption>
                     </figure>
                     <figure>
+                        <img src="images/redux.png" alt="redux">
+                        <figcaption>Redux</figcaption>
+                    </figure>
+                    <figure>
                         <img src="../images/sass.png" alt="sass">
-                        <figcaption>SASS</figcaption>
+                        <figcaption>Sass/SCSS</figcaption>
                     </figure>
                     <figure>
                         <img src="../images/rwd.png" alt="rwd">
@@ -110,19 +114,19 @@
     </section>
     <section class="projects" id="projects">
         <div class="wrapper">
-            <div class="projects-container">
+            <div class="projects-content-container main-container">
                 <h1 class="section-header">Projekty</h1>
-                <div class="projects-photos">
-                    <div class="project-container">
+                <div class="projects-list-container">
+                    <div class="single-project-container">
                         <div class="photo-container">
                             <img src="images/GameView.PNG" alt="GameViewPhoto">
                         </div>
                         <div class="project-description">
                            <p>Jest to mój pierwszy w pełni samodzielnie wykonywany projekt, który aktualnie znajduje się jeszcze w produkcji. "Industrio" ma być grą, w której gracz wcieli się w rolę właściciela zakładu metalurgicznego.</p>
-                           <p class="more more-industrio"><span class="more-btn-text">Więcej</span></p>
+                           <p class="more-btn more-industrio"><span class="more-btn-text">Więcej</span></p>
                         </div>
                     </div>
-                    <div class="project-container">
+                    <div class="single-project-container">
                         <div class="photo-container">
                             <img src="images/PortfolioImage.PNG" alt="PortfolioImage">
                         </div>
@@ -171,11 +175,10 @@
     </div>
     <section class="contact" id="contact">
         <div class="wrapper">
-            <div class="contact-text">
+            <div class="contact-text main-container">
                 <h1 class="section-header">Kontakt</h1>
                 <p>Znaleźć można mnie na tych platformach!</p>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/in/jakub-lasek-3b1143208/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:jakublasek41@gmail.com"><i class="fas fa-envelope"></i></a>
                     <a href="https://github.com/JLasek-git" target="_blank"><i class="fab fa-github"></i></a>
                 </div>

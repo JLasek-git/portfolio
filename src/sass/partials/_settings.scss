@@ -1,11 +1,46 @@
-$section-width: 100vw;
-$section-height: 100vh;
-$text-color-white: #ced6e0;
-$medium-font-size: 32px;
-$small-font-size: 22px;
-$big-font-size: 60px;
-$background-shutter: rgba(0,0,0,.4);
+/* font sizes */
 
+$medium-font-size: 2em;
+$small-font-size: 1.2em;
+$big-font-size: 3em;
+
+/* Containers sections and wrappers */
+$container-max-height: 90%;
+$container-min-height: 70%;
+$mobile-container-width: 90%;
+$desktop-container-width: 80%;
+$section-base-height: 100vh;
+$wrapper-height: 100%;
+
+/* Buttons */
+$btn-more-width: 100px;
+$btn-more-height: 40px;
+
+/* Border Radius */
+$circle-border-radius: 50%;
+$base-border-radius: 20px;
+
+/* Popups */
+$popups-desktop-width: 80%;
+$popups-desktop-height: 80%;
+
+/* Formatting */
+$base-margin: 40px;
+$lesser-margin: 20px;
+
+/* fonts */
+$font-family-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+/* colors */
+$text-color-white: #ced6e0;
+$black-alpha: rgba(0, 0, 0, 0.4);
+$violet-lighter: #2d253a;
+$violet-darker: #12093d;
+$golden-yellow: #eccc68;
+$gray-violet: #332c36;
+$gradient-from-lighter: linear-gradient(#2d253a, #12093d);
+$gradient-from-darker: linear-gradient(#12093d, #2d253a);
+$gray-alpha: rgba(#333333, 0.6);
 
 /* random times for circle float animation*/
 $random-time1: (random(80) + 20) + s;

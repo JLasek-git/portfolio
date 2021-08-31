@@ -1,6 +1,8 @@
+@import './settings';
+
 .page-footer{
     height: 10vh;
-    background-color: #12093d;
+    background-color: $violet-darker;
     color: $text-color-white;
     
     & .wrapper {

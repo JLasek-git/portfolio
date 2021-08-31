@@ -1,4 +1,4 @@
-/* hamburger settings */
+/* hamburger menu settings */
 const burgerBtn = document.querySelector('#hamburger-btn');
 const burgerMenu = document.querySelector('#hamburger-menu');
 const burgerBtnClose = document.querySelector('#hamburger-close');
@@ -18,12 +18,12 @@ burgerBtnClose.addEventListener('click', () => {
 });
 
 
-/* read more projects settings INDUSTRIO*/
-const industrioMore = document.querySelector('.more-industrio');
+/* read more about project INDUSTRIO*/
+const industrioMoreBtn = document.querySelector('.more-industrio');
 const industrioInfo = document.getElementById('industrio');
 const industrioCloseBtn = document.getElementById('industrio-close');
 
-industrioMore.addEventListener('click', () => {
+industrioMoreBtn.addEventListener('click', () => {
   industrioInfo.classList.toggle('active');
   document.body.style.overflowY = 'hidden';
   

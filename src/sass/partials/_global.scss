@@ -1,3 +1,5 @@
+@import "./settings";
+
 *,
 *::after,
 *::before {
@@ -8,46 +10,60 @@
 body {
   position: relative;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
-section .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  background-color: #2d253a;
-  text-align: center;
-  color: #ced6e0;
+section {
+  height: $section-base-height;
+  & .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $wrapper-height;
+    background-color: $violet-lighter;
+    text-align: center;
+    color: $text-color-white;
+
+    & .main-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      width: $desktop-container-width;
+      min-height: $container-min-height;
+      max-height: $container-max-height;
+      background-color: $black-alpha;
+      border-radius: $base-border-radius;
+
+      & .section-header {
+        margin: $base-margin 0;
+      }
+    }
+  }
 }
 
-.section-header {
-  margin: 40px 0;
-}
-
-.more {
+.more-btn {
   cursor: pointer;
-  background-color: #332c36;
+  background-color: $gray-violet;
   text-align: center;
-  line-height: 40px;
+  line-height: $btn-more-height;
   font-weight: bold;
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-  transition: .3s linear;
+  width: $btn-more-width;
+  height: $btn-more-height;
+  border-radius: $base-border-radius;
+  transition: 0.3s linear;
 
   &:hover {
-    color: #eccc68;
+    color: $golden-yellow;
   }
 }
 
 .link {
-  font-size: 24px;
-  color: #ced6e0;
-  transition: .3s linear;
+  font-size: $small-font-size;
+  color: $text-color-white;
+  transition: 0.3s linear;
 
   &:hover {
-    color: #eccc68;
+    color: $golden-yellow;
   }
 }
