@@ -165,104 +165,104 @@ header .wrapper .circles-container .circles.circle1 {
   width: 400px;
   height: 400px;
   right: 300px;
-  -webkit-animation: circleFloat 50s infinite;
-          animation: circleFloat 50s infinite;
+  -webkit-animation: circleFloat 81s infinite;
+          animation: circleFloat 81s infinite;
 }
 
 header .wrapper .circles-container .circles.circle2 {
   width: 400px;
   height: 400px;
   left: 500px;
-  -webkit-animation: circleFloat 55s infinite;
-          animation: circleFloat 55s infinite;
+  -webkit-animation: circleFloat 62s infinite;
+          animation: circleFloat 62s infinite;
 }
 
 header .wrapper .circles-container .circles.circle3 {
   width: 500px;
   height: 500px;
   left: 700px;
-  -webkit-animation: circleFloat 51s infinite;
-          animation: circleFloat 51s infinite;
+  -webkit-animation: circleFloat 24s infinite;
+          animation: circleFloat 24s infinite;
 }
 
 header .wrapper .circles-container .circles.circle4 {
   width: 100px;
   height: 100px;
   left: 100px;
-  -webkit-animation: circleFloat 39s infinite;
-          animation: circleFloat 39s infinite;
+  -webkit-animation: circleFloat 28s infinite;
+          animation: circleFloat 28s infinite;
 }
 
 header .wrapper .circles-container .circles.circle5 {
   width: 150px;
   height: 150px;
   right: 200px;
-  -webkit-animation: circleFloat 70s infinite;
-          animation: circleFloat 70s infinite;
+  -webkit-animation: circleFloat 42s infinite;
+          animation: circleFloat 42s infinite;
 }
 
 header .wrapper .circles-container .circles.circle6 {
   width: 50px;
   height: 50px;
   left: 900px;
-  -webkit-animation: circleFloat 81s infinite;
-          animation: circleFloat 81s infinite;
+  -webkit-animation: circleFloat 28s infinite;
+          animation: circleFloat 28s infinite;
 }
 
 header .wrapper .circles-container .circles.circle7 {
   width: 120px;
   height: 120px;
   left: 400px;
-  -webkit-animation: circleFloat 66s infinite;
-          animation: circleFloat 66s infinite;
+  -webkit-animation: circleFloat 27s infinite;
+          animation: circleFloat 27s infinite;
 }
 
 header .wrapper .circles-container .circles.circle8 {
   width: 175px;
   height: 175px;
   left: 200px;
-  -webkit-animation: circleFloat 49s infinite;
-          animation: circleFloat 49s infinite;
+  -webkit-animation: circleFloat 76s infinite;
+          animation: circleFloat 76s infinite;
 }
 
 header .wrapper .circles-container .circles.circle9 {
   width: 200px;
   height: 200px;
   right: 200px;
-  -webkit-animation: circleFloat 60s infinite;
-          animation: circleFloat 60s infinite;
+  -webkit-animation: circleFloat 45s infinite;
+          animation: circleFloat 45s infinite;
 }
 
 header .wrapper .circles-container .circles.circle10 {
   width: 75px;
   height: 75px;
   right: 300px;
-  -webkit-animation: circleFloat 78s infinite;
-          animation: circleFloat 78s infinite;
+  -webkit-animation: circleFloat 47s infinite;
+          animation: circleFloat 47s infinite;
 }
 
 header .wrapper .circles-container .circles.circle11 {
   width: 300px;
   height: 300px;
   left: -100px;
-  -webkit-animation: circleFloat 63s infinite;
-          animation: circleFloat 63s infinite;
+  -webkit-animation: circleFloat 42s infinite;
+          animation: circleFloat 42s infinite;
 }
 
 header .wrapper .circles-container .circles.circle12 {
   width: 400px;
   height: 400px;
   right: -100px;
-  -webkit-animation: circleFloat 67s infinite;
-          animation: circleFloat 67s infinite;
+  -webkit-animation: circleFloat 25s infinite;
+          animation: circleFloat 25s infinite;
 }
 
 header .wrapper .circles-container .circles.circle13 {
   width: 250px;
   height: 250px;
   left: 450px;
-  -webkit-animation: circleFloat 96s infinite;
-          animation: circleFloat 96s infinite;
+  -webkit-animation: circleFloat 37s infinite;
+          animation: circleFloat 37s infinite;
 }
 
 @-webkit-keyframes circleFloat {
